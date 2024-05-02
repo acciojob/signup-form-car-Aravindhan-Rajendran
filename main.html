@@ -10,38 +10,38 @@
 	<!-- the entire body must be written by student -->
 	<form method="post">
 	<label for="name">Name</label>
-	<input type="text" id="name" placeholder="Name" required="yes">
+	<input type="text" id="name" placeholder="Name" required>
 	<br>
 	<label for="email">Email</label>
-	<input type="Email" id="email" placeholder="Email" required="yes">
+	<input type="Email" id="email" placeholder="Email" required>
 	<br>
-	<label for="gender_m,gender_f" required="yes">Gender</label>
-	<input type="radio" id="gender_m,gender_f" name="gender">Male
-	<input type="radio" id="gender_m,gender_f" name="gender">Female
+	<label for="gender_m,gender_f" required>Gender</label>
+	<input type="radio" id="gender_m" name="gender">Male
+	<input type="radio" id="gender_f" name="gender">Female
 	<Br>
-	<label for="cars" required="yes">Car Brands</label>
-	<select id="cars">
+	<label for="cars" >Car Brands</label>
+	<select id="cars" placeholder="--Please choose an option--" required>
 		<option>BMW</option>
 		<option>AUDII</option>
 		<option>FERRARI</option>
 	</select>
 	<br>
 	<label for="age">age</label>
-	<input type="number" id="age" placeholder="Age" required="yes">
+	<input type="number" id="age" placeholder="Age" required>
 	<br>
 	<label for="dob">dob</label>
-	<input type="date" id="dob"  required="yes">
+	<input type="date" id="dob"  required>
 	<br>
 	<label for="tel" required="no">Phone Number</label>
 	<input type="tel" id="tel" placeholder="xxx-xxx-xxxx">
 	<br>
 	<label for="password">Password</label>
-	<input type="password" id="password" placeholder="Password" required="yes">
+	<input type="password" id="password" placeholder="Password" required>
 	<br>
-	<label for="tos" required="yes">I agree to the TOS</label>
+	<label for="tos" required>I agree to the TOS</label>
 	<input type="checkbox" id="tos">
 	<br>
-	<input type="button" value="submit">
+	<input type="submit" value="submit">
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
